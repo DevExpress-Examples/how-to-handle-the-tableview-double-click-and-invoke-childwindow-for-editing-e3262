@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SilverlightApplication27.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxg:GridControl AutoPopulateColumns="True" HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="gridControl1" VerticalAlignment="Top" Height="276" Width="376">
+            <dxg:GridControl.View>
+                <dxg:TableView Name="view" NavigationStyle="Row" RowDoubleClick="view_RowDoubleClick" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</UserControl>
